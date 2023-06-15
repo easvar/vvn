@@ -1,0 +1,45 @@
+*{
+    font-family: Roboto,sans-serif;
+    background-color: rgb (218,218,218);
+    color: #fff;
+    text-align: center;
+}
+
+header,section,aside,footer {
+    margin: 0;
+    padding: 140px;
+    border: 1px solid #000000;
+}
+
+header{
+    background: #039f40
+}
+
+.menu{
+    background: yellow;
+    /*Flex*/
+    flex-basis: 200px;
+}
+
+.content{
+    background: purple;
+    flex: grow 1 ;
+}
+
+aside{
+    border: 1px solid #000000;
+    background: orangered;
+    /*flex*/
+    flex-basis: 200px;
+}
+
+footer{
+    border: 1px solid #000000;
+    background:salmon;   
+}
+
+/*flex*/
+.flex-container{
+    display: flex;
+    height: 400px;
+}
